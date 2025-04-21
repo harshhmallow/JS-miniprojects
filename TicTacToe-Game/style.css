@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+* {
+    margin: 5px;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(93, 5, 93);
+    align-items: center;
+    justify-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+    color: antiquewhite;
+    text-shadow: 2px 2px rgb(96, 98, 85);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    width: 70vh;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-style: dashed;
+    border-color: rgb(162, 92, 171);
+    border-radius: 25px;
+    align-items: center;
+    margin-top: 1px;
+    margin-bottom: 0.5px;
+}
+
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 60vmin;
+    width: 60vmin;
+    align-items: center;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    align-items: center;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    box-shadow: 2px 2px 1rem rgba(0, 0, 0, 0.5);
+    font-family: 'Fredoka', sans-serif;
+    font-size: 8vmin;
+    color: black;
+}
+
+.reset {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(61, 59, 61);
+    border-radius: 15px;
+    color: antiquewhite;
+    font-family: 'Fredoka', sans-serif;
+    box-shadow: 2px 2px 1rem rgba(0, 0, 0, 0.5);
+    margin-top: 1rem;
+}
+
+#new {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(61, 59, 61);
+    border-radius: 15px;
+    color: antiquewhite;
+    font-family: 'Fredoka', sans-serif;
+    box-shadow: 2px 2px 1rem rgba(0, 0, 0, 0.5);
+}
+
+#msg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+    color: rgb(218, 240, 15);
+    text-shadow: 2px 2px rgb(96, 98, 85);
+    font-size: 28px;
+}
+
+.msgContainer {
+    height: 100vmin;
+    width: 90vmin;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hide {
+    display: none;
+}
